@@ -1,0 +1,76 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+	@import url('https://fonts.googleapis.com/css2?family=VT323');
+
+	html {
+		color: white;
+		align-items: center;
+		display: flex;
+		height: 100%;
+		justify-content: center;
+		margin: 0;
+	}
+	body {
+    	font-family: 'VT323';
+    	/* font-size:24px; */
+    	font-weight:strong;
+		background-color: #000000;
+		/* background-color: #0a0a0a; */
+		/* background-color: #6c5c6d; *
+		/* background-size: contain; */
+		/* background-image: url("1bg_anime-fallingroses.gif"); */		
+		/* backdrop-filter: blur(100px); */
+	}
+	.main {
+	  margin-right: 145px;
+		width: auto;
+		height: 20em;
+		display: flex;
+		flex-flow: row;
+	}
+	.whoops {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		/* transform: scale(0.5); */
+		width: 380px;
+		height: 20em;
+		background-color: #1c141b;
+	}
+	.whoops img {
+		/* border-radius: 3px; */
+		width: 380px;
+		height: 320px;
+	}
+	p {
+		text-align: center;
+		color:white;
+	}
+	ul {
+		list-style-type: none;
+	}
+	.links {
+		position: absolute;
+		margin-left: 24.5em;
+		height: 20em;
+		width: 30em;
+		background-color: #563443;
+		clip-path: polygon(0 0, 144px 0, 23% 100%, 0% 100%);
+		background-image: url("neko_stable.gif");
+		background-repeat: no-repeat;
+		background-position-y: bottom;
+		background-position-x: 5em;
+	}
+	li {
+		font-size: 17px;
+		line-height: 2em;
+		color: white;
+	}
+	a {
+		all: unset;
+	}
+	a:hover {
+		cursor: pointer;
+	}
